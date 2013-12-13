@@ -1,0 +1,49 @@
+﻿Build started 12/13/2013 6:46:07 PM.
+     1>Project "C:\Users\David\Documents\SCHOOL\OLD\spring 2013\CPT 244\ass 5\Program 5 Solution Wiggins\Program 5 Wiggins\Program 5 Wiggins.vcxproj" on node 2 (Build target(s)).
+     1>PrepareForBuild:
+         Creating directory "C:\Users\David\Documents\SCHOOL\OLD\spring 2013\CPT 244\ass 5\Program 5 Solution Wiggins\Debug\".
+       InitializeBuildStatus:
+         Creating "Debug\Program 5 Wiggins.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt DatabaseMananger.cpp
+         DatabaseMananger.cpp
+     1>c:\users\david\documents\school\old\spring 2013\cpt 244\ass 5\program 5 solution wiggins\program 5 wiggins\databasemananger.cpp(97): warning C4996: 'gets': This function or variable may be unsafe. Consider using gets_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(277) : see declaration of 'gets'
+     1>c:\users\david\documents\school\old\spring 2013\cpt 244\ass 5\program 5 solution wiggins\program 5 wiggins\databasemananger.cpp(110): warning C4996: 'gets': This function or variable may be unsafe. Consider using gets_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(277) : see declaration of 'gets'
+     1>c:\users\david\documents\school\old\spring 2013\cpt 244\ass 5\program 5 solution wiggins\program 5 wiggins\databasemananger.cpp(126): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>c:\users\david\documents\school\old\spring 2013\cpt 244\ass 5\program 5 solution wiggins\program 5 wiggins\databasemananger.cpp(198): warning C4996: 'gets': This function or variable may be unsafe. Consider using gets_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(277) : see declaration of 'gets'
+     1>c:\users\david\documents\school\old\spring 2013\cpt 244\ass 5\program 5 solution wiggins\program 5 wiggins\databasemananger.cpp(281): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\david\documents\school\old\spring 2013\cpt 244\ass 5\program 5 solution wiggins\program 5 wiggins\databasemananger.cpp(324): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\david\documents\school\old\spring 2013\cpt 244\ass 5\program 5 solution wiggins\program 5 wiggins\databasemananger.cpp(347): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\david\documents\school\old\spring 2013\cpt 244\ass 5\program 5 solution wiggins\program 5 wiggins\databasemananger.cpp(401): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>c:\users\david\documents\school\old\spring 2013\cpt 244\ass 5\program 5 solution wiggins\program 5 wiggins\databasemananger.cpp(418): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\david\documents\school\old\spring 2013\cpt 244\ass 5\program 5 solution wiggins\program 5 wiggins\databasemananger.cpp(532): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>c:\users\david\documents\school\old\spring 2013\cpt 244\ass 5\program 5 solution wiggins\program 5 wiggins\databasemananger.cpp(565): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>c:\users\david\documents\school\old\spring 2013\cpt 244\ass 5\program 5 solution wiggins\program 5 wiggins\databasemananger.cpp(638): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\Program 5 Wiggins.exe.embed.manifest.res" "Debug\Program 5 Wiggins_manifest.rc" 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\David\Documents\SCHOOL\OLD\spring 2013\CPT 244\ass 5\Program 5 Solution Wiggins\Debug\Program 5 Wiggins.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Program 5 Wiggins.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\David\Documents\SCHOOL\OLD\spring 2013\CPT 244\ass 5\Program 5 Solution Wiggins\Debug\Program 5 Wiggins.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\David\Documents\SCHOOL\OLD\spring 2013\CPT 244\ass 5\Program 5 Solution Wiggins\Debug\Program 5 Wiggins.lib" /MACHINE:X86 "Debug\Program 5 Wiggins.exe.embed.manifest.res"
+         Debug\DatabaseMananger.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\Program 5 Wiggins.exe.embed.manifest" /manifest "Debug\Program 5 Wiggins.exe.intermediate.manifest"
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\Program 5 Wiggins.exe.embed.manifest.res" "Debug\Program 5 Wiggins_manifest.rc" 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\David\Documents\SCHOOL\OLD\spring 2013\CPT 244\ass 5\Program 5 Solution Wiggins\Debug\Program 5 Wiggins.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Program 5 Wiggins.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\David\Documents\SCHOOL\OLD\spring 2013\CPT 244\ass 5\Program 5 Solution Wiggins\Debug\Program 5 Wiggins.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\David\Documents\SCHOOL\OLD\spring 2013\CPT 244\ass 5\Program 5 Solution Wiggins\Debug\Program 5 Wiggins.lib" /MACHINE:X86 "Debug\Program 5 Wiggins.exe.embed.manifest.res"
+         Debug\DatabaseMananger.obj
+         Program 5 Wiggins.vcxproj -> C:\Users\David\Documents\SCHOOL\OLD\spring 2013\CPT 244\ass 5\Program 5 Solution Wiggins\Debug\Program 5 Wiggins.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\Program 5 Wiggins.unsuccessfulbuild".
+         Touching "Debug\Program 5 Wiggins.lastbuildstate".
+     1>Done Building Project "C:\Users\David\Documents\SCHOOL\OLD\spring 2013\CPT 244\ass 5\Program 5 Solution Wiggins\Program 5 Wiggins\Program 5 Wiggins.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.78
